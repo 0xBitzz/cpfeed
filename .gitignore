@@ -1,0 +1,5 @@
+cpfeed/__pycache__/
+dist
+poetry.lock
+pyproject.toml
+.DS_Store
