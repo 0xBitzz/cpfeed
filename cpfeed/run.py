@@ -7,7 +7,7 @@ def install_dependencies():
     """
     try:
         # Run 'poetry install' command
-        subprocess.run(["poetry", "install"], check=True)
+        subprocess.run(["poetry", "install", "--no-dev"], check=True)
         print("Dependencies installed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Error: Failed to install dependencies. {e}")
