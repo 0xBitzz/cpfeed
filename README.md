@@ -1,6 +1,6 @@
 # cpfeed (Crypto Price Feed)
 
-`cpfeed` (short for Crypto Price Feed) is a Python package for fetching cryptocurrency prices from the CoinGecko API.
+`cpfeed` (short for Crypto Price Feed) is a Python package for fetching cryptocurrency prices from the [CoinGecko API](https://www.coingecko.com/api/documentation).
 
 ## Requirements
 
@@ -21,25 +21,25 @@ pip3 install cpfeed
 
 1. Navigate to the `cpfeed` directory:
 
-```bash
+```sh
 cd cpfeed
 ```
 
 2. Activate the Poetry shell:
 
-```bash
+```sh
 poetry shell
 ```
 
 3. Fetch cryptocurrency prices:
 
-```bash
+```sh
 cpfeed bitcoin
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## TODO
 

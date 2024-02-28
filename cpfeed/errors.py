@@ -1,6 +1,3 @@
-class CoinGeckoAPIError(Exception):
-    pass
-
 class InvalidCoinError(Exception):
     pass
 
