@@ -26,7 +26,7 @@ jobs:
         run: poetry build
 
       - name: Publish to PyPI (requires PyPI API token)
-        uses: pypa/gh-action-pypi-publish@v27b31702a0e7fc50959f5ad993c78deac1bdfc29
+        uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
         with:
           user: $PYPI_USERNAME
           password: $PYPI_PASSWORD
