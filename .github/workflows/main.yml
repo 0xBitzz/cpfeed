@@ -30,4 +30,3 @@ jobs:
         with:
           user: $PYPI_USERNAME
           password: $PYPI_PASSWORD
-          repository_url: https://pypi.org/test
