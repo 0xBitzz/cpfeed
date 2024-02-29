@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cpfeed"
-version = "0.5.0"
+version = "0.6.0"
 description = "CLI to check out current prices of cryptocurrencies. Powered by CoinGecko."
 authors = ["0xBitzz <successdaudu@gmail.com>"]
 readme = "README.md"
