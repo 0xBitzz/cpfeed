@@ -18,6 +18,13 @@ requests = "^2.31.0"
 [tool.poetry.dev-dependencies]
 twine = "5.0.0"
 
+[tool.poetry.metadata]
+project-urls = { source = "https://pypi.org/project/cpfeed" }
+
+[tool.poetry.source]
+name = "cpfeed"
+url = "https://github.com/0xBitzz/cpfeed"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
