@@ -17,7 +17,7 @@ classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
     "License-Expression: MIT",
-    "Classifier: Environment :: Console (Text Based)"
+    "Classifier: Environment :: Console (Text Based)",
     "Programming Language :: Python :: 3",
     "Topic :: Software Development :: Build Tools",
 ]
