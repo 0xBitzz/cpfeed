@@ -13,14 +13,6 @@ keywords = [
     "console",
     "CLI",
 ]
-classifiers = [
-    "Environment :: Console",
-    "Intended Audience :: Developers",
-    "License-Expression: MIT",
-    "Classifier: Environment :: Console (Text Based)",
-    "Programming Language :: Python :: 3",
-    "Topic :: Software Development :: Build Tools",
-]
 
 [tool.poetry.scripts]
 cpfeed = "cpfeed.cpf:main"
