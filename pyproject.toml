@@ -16,7 +16,8 @@ keywords = [
 classifiers = [
     "Environment :: Console",
     "Intended Audience :: Developers",
-    "License :: MIT License",
+    "License-Expression: MIT",
+    "Classifier: Environment :: Console (Text Based)"
     "Programming Language :: Python :: 3",
     "Topic :: Software Development :: Build Tools",
 ]
