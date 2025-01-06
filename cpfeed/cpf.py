@@ -2,7 +2,7 @@ import requests
 import typer
 from typing_extensions import Annotated
 
-from .errors import InvalidCoinError, InvalidCurrencyError, ERROR_MESSAGES
+from cpfeed.errors import InvalidCoinError, InvalidCurrencyError, ERROR_MESSAGES
 
 
 app = typer.Typer()
