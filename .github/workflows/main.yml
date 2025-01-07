@@ -28,7 +28,7 @@ jobs:
       - name: Inspect METADATA
         run: |
           tar -xvf dist/*.tar.gz
-          cat *.dist-info/METADATA
+          cat cpfeed-0.12.0.dist-info/METADATA
 
       - name: Publish to PyPI (requires PyPI API token)
         uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
