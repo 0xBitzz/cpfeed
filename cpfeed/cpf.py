@@ -4,7 +4,6 @@ from typing_extensions import Annotated
 
 from cpfeed.errors import InvalidCoinError, InvalidCurrencyError, ERROR_MESSAGES
 
-
 app = typer.Typer()
 
 
